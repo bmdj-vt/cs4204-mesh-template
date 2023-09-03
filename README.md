@@ -11,7 +11,7 @@ In this programming assignment, you are going to complete the second step toward
 
 ## Instructions
 
-For this assignment, you will create a python file called `mesh.py`, and within that file there will be a class called `Mesh`. `Mesh` needs to be implemented as detailed below. Now that we know how to display a buffer of pixel values on the screen, we need to start implement the processing pipeline for 3D objects to eventually shade and display them. In this assignment we make use of printed numeric checks on known meshes to validate solutions, as true visual validation is not possible until we have methods to shade objects in our raster renderer.
+For this assignment, you will create a python file called `mesh.py`, and within that file there will be a class called `Mesh`. `Mesh` needs to be implemented as detailed below. Now that we know how to display a buffer of pixel values on the screen, we need to start implement the processing pipeline for 3D objects to eventually shade and display them. Specifically, you will implement a pipeline to read in an stl file (numpy-stl is reccomended) and generate lists of vertices, triangle faces, and normals. In this assignment we make use of printed numeric checks on known meshes to validate solutions, as true visual validation is not possible until we have methods to shade objects in our raster renderer.
 
 *Hint*: this might be a good time to introduce a helper class for necessary mathematical structures such as 3D vectors.
 
